@@ -11,7 +11,7 @@
 	<div class="contenedor">
 		
 		<header> 
-		<img src="imagenes/logo.jpg">
+		<img src="/logo.jpg">
 		</header>
 		<nav style="background-color:#17B3CB ;"> 
 
@@ -28,8 +28,8 @@
 			
 			<article>
 				
-				<form action="pag.php" id="formulario" oninput="range_control_value.value = range_control.valueAsNumber">
-		<table border="1">  
+		<form action="show_data.html" target="blank">
+			<table border="1">  
 			
 			<tr>
 				<th>Nombre</th>
@@ -60,6 +60,11 @@
 			<tr>
 				<th>Fecha y hora de Nacimiento</th>
 				<td><input type="datetime-local" name="datetime_control"></td>
+			</tr>
+			
+			<tr>
+				<th>Genero</th>
+				<td><input type="radio" name="Genero" value="Masculino"><input type="radio" name="Genero" value="Femenino">	</td>
 			</tr>
 
 			
